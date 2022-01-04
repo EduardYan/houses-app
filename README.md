@@ -19,6 +19,12 @@ __Install of requirements file:__
 pip3 install -r requirements.txt
 ```
 
+__Create this enviroment variable:__
+
+```txt
+SQLITE_PATH=
+```
+
 __Clone the repository and execute:__
 
 ```bash
