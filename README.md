@@ -10,7 +10,13 @@ __Install of requirements file:__
 pip3 install -r requirements.txt
 ```
 
-## Run.
+## Installation with Docker.
+
+```bash
+docker build -d --publish 5000:5000 houses-app
+```
+
+## Manual.
 
 __Clone the repository and execute:__
 
@@ -21,10 +27,11 @@ python3 index.py
 
 ```
 
+Now you can visite this direction from the browser <a href="http://localhost:5000">http://localhost:5000</a>
+
+
 ## Screenshot.
 ![screenshot](./doc/screenshot.png)
-
-Now you can visite this direction from the browser <a href="http://localhost:5000">http://localhost:5000</a>
 
 ## Resources.
 Css styles from <a href="https://bootswatch.com/">https://bootswatch.com</a>
