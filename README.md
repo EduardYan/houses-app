@@ -28,7 +28,7 @@ python3 index.py
 
 ```
 
-Now you can visite this direction from the browser <a href="http://localhost:5000">http://localhost:5000</a>
+Now you can visite this direction from the browser <a target="_blank" href="http://localhost:5000">http://localhost:5000</a>
 
 
 ## Screenshot.
