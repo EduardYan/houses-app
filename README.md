@@ -2,13 +2,6 @@
 
 __A web application for administration of houses. Make with python and sqlite3 as database.__
 
-## Dependencies.
-
-__Install of requirements file:__
-
-```bash
-pip3 install -r requirements.txt
-```
 
 ## Installation with Docker.
 
@@ -17,6 +10,14 @@ docker build -d --publish 5000:5000 houses-app
 ```
 
 ## Manual.
+
+### Dependencies.
+
+__Install of requirements file:__
+
+```bash
+pip3 install -r requirements.txt
+```
 
 __Clone the repository and execute:__
 
