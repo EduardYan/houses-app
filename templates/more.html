@@ -1,0 +1,16 @@
+<!-- PAGE FOR MORE SECTION -->
+{% extends 'layout.html' %}
+
+{% block content %}
+<link rel="stylesheet" href="{{ url_for('static', filename = 'css/more.css') }}">
+<h1 id="title">More</h1>
+
+{% if quantity %}
+<p class="pt-3 pb-2">You have {{ quantity }} houses registred.</p>
+<p>The last was {{ last }}.</p>
+{% else %}
+<p class="p-2">No houses yet</p>
+<a href="{{ url_for('houses.home') }}" class="link">Add Houses</a>
+{% endif %}
+
+{% endblock %}

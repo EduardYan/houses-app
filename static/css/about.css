@@ -1,0 +1,16 @@
+/* Styles for about page */
+
+h1 {
+  font-weight: lighter;
+}
+
+p {
+  color: #eee;
+  font-size: 1.6rem;
+}
+
+@media(max-width: 700px) {
+  p {
+    text-align: left;
+  }
+}

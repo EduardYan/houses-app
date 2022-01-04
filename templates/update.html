@@ -1,0 +1,29 @@
+<!-- PAGE FOR UPDATE A HOUSE -->
+
+{% extends 'layout.html' %}
+
+{% block content %}
+<link rel="stylesheet" href="{{ url_for('static', filename = 'css/index.css') }}">
+
+<div class="card">
+
+  <div class="card-body">
+    <!-- UPDATE FORM -->
+    <form action="{{ url_for('houses.update', id =  house.id) }}" method="POST">
+      <h3>Update the house</h3>
+      <label for="location">Location of the house</label>
+      <input type="text" id="location" name="location" value="{{ house.location }}">
+
+      <hr>
+
+      <label for="price-label" id="price-label" >Price of the house</label>
+      <input type="number" name="price" value="{{ house.price }}">
+
+      <button class="btn btn-primary mt-4 m-auto">Update</button>
+
+    </form>
+
+  </div>
+
+</div>
+{% endblock %}

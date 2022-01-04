@@ -1,0 +1,27 @@
+/* Globals styles for the app */
+
+body {
+  background-color: #777;
+  background: #373B44;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to top, #4286f4, #373B44);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to top, #4286f4, #373B44); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+
+.container {
+  width: 70%;
+  margin: 3rem auto;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+}
+
+.container .navbar-title {
+  font-size: 2.5rem;
+
+}
+
+.container .collapse .navbar-nav .nav-item .nav-link {
+  font-size: 1.5rem;
+
+}

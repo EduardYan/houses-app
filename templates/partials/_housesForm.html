@@ -1,0 +1,25 @@
+<!-- FORM FOR THE ADD A HOUSE -->
+<form action="{{ url_for('houses.add') }}" method="POST" class="card">
+  <div class="card-body mt-2">
+
+    <h3>Add a new house</h3>
+
+    <label for="location">Location of the house</label>
+    <input type="text" id="location" name="location" placeholder="location" autofocus>
+
+
+    <hr>
+
+    <label for="price" id="price-label">Price of the house</label>
+    <input type="number" id="location" name="price" placeholder="price">
+
+
+    <button class="btn btn-primary mt-4 m-auto">Add</button>
+  </div>
+
+  <!-- <hr> -->
+
+  <!-- <label for="active">The house </label>
+  <input type="text" id="location" name="location"> -->
+
+</form>
