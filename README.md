@@ -35,7 +35,7 @@ Now you can visite this direction from the browser <a target="_blank" href="http
 ![screenshot](./doc/screenshot.png)
 
 ## Resources.
-Css styles from <a href="https://bootswatch.com/">https://bootswatch.com</a>
+Css styles from <a target="_blank" href="https://bootswatch.com/">https://bootswatch.com</a>
 
 ## Errors or bugs.
 Contact me <a href="mailto:eduarygp@gmail.com">eduarygp@gmail.com</a>
