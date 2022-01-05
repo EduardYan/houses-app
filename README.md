@@ -6,7 +6,7 @@ __A web application for administration of houses. Make with python and sqlite3 a
 ## Installation with Docker.
 
 ```bash
-docker build -d --publish 5000:5000 eduarddan/houses-app
+docker run -d --publish 5000:5000 eduarddan/houses-app
 ```
 
 ## Manual.
