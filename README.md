@@ -28,7 +28,7 @@ SQLITE_PATH=
 __Clone the repository and execute:__
 
 ```bash
-git clone https://www.github.com/EduardYan/python-houses-app.git
+git clone https://www.github.com/EduardYan/houses-app.git
 cd python-houses-app
 python3 index.py
 
