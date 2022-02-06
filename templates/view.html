@@ -19,7 +19,7 @@
 
     <div class="actions-view">
       <a class="buttons" href="{{ url_for('houses.update', id = house.id) }}">Update</a>
-      <a class="btn btn-danger" href="{{ url_for('houses.delete', id = house.id) }}">Delete</a>
+      <a class="btn btn-danger delete-button" href="{{ url_for('houses.delete', id = house.id) }}">Delete</a>
 
       <!-- DISABLE -->
       <a class="buttons {% if house.disable%} disable-button {% endif %}" href="{{ url_for('houses.disable', id = house.id) }}">Disable</a>
