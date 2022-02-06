@@ -13,7 +13,7 @@
   {% if houses %}
   {% for house in houses %}
 
-  <div class="card-house card">
+  <div class="card-house card {% if house.disable %} disable {% endif %}">
     <h3 class="text-dark">{{ house.location }}</h3>
     <p class="text-dark">$ {{ house.price }}</p>
 
@@ -22,7 +22,7 @@
       <a class="btn btn-danger" href="{{ url_for('houses.delete', id = house.id) }}">Delete</a>
 
       <!-- DISABLE -->
-      <a class="buttons {% if house.disable%} disable {% endif %}" href="{{ url_for('houses.disable', id = house.id) }}">Disable</a>
+      <a class="buttons {% if house.disable%} disable-button {% endif %}" href="{{ url_for('houses.disable', id = house.id) }}">Disable</a>
 
     </div>
 
@@ -30,7 +30,7 @@
   {% endfor %}
 
   {% else %}
-  <p class="p-3">Not houses yet</p>
+  <p class="p-3">Not houses yet.</p>
   {% endif %}
 
 </div>
